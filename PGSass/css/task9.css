@@ -1,0 +1,10 @@
+body {
+  background: #369; }
+  body #wrapper {
+    width: 300px;
+    background: white;
+    border: #eee; }
+    body #wrapper h1 {
+      color: #369; }
+
+/*# sourceMappingURL=task9.css.map */

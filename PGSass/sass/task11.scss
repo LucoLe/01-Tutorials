@@ -1,0 +1,12 @@
+#page {
+  color: lighten(#336699, 20%);
+}
+
+$main_color: #336699;
+
+#page {
+  color: saturate($main_color, 30%);
+  color: adjust-hue($main_color, 180);
+  color: adjust-hue(desaturate($main_color, 10%), 90);
+  color: mix($main_color, #993266);
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,aAAoB;EAClB,gBAAgB,EAAE,sBAA4B;;AADhD,cAAoB;EAClB,gBAAgB,EAAE,uBAA4B;;AADhD,cAAoB;EAClB,gBAAgB,EAAE,uBAA4B;;AADhD,aAAoB;EAClB,gBAAgB,EAAE,sBAA4B",
+"sources": ["../sass/task22.scss"],
+"names": [],
+"file": "task22.css"
+}

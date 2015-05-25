@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.twitter.com/1.1/users/show.json?screen_name=josemotanet
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.twitter.com
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Content-Length:
+      - '77'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 06 Apr 2015 13:43:07 GMT
+      Server:
+      - tsa_f
+      Set-Cookie:
+      - guest_id=v1%3A142832778770847810; Domain=.twitter.com; Path=/; Expires=Wed,
+        05-Apr-2017 13:43:07 UTC
+      X-Connection-Hash:
+      - 7500a0f7cd2f49b0557972556d2634b4
+      X-Response-Time:
+      - '98'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"errors":[{"message":"SSL is required","code":92}]}'
+    http_version: 
+  recorded_at: Mon, 06 Apr 2015 13:43:09 GMT
+recorded_with: VCR 2.9.3

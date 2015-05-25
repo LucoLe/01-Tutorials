@@ -1,0 +1,8 @@
+.main {
+  color: #336699;
+  font-size: 15px; }
+  @media screen and (min-width: 321px) and (max-width: 480px) {
+    .main {
+      font-size: 25px; } }
+
+/*# sourceMappingURL=task24.css.map */

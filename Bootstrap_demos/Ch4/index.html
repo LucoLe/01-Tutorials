@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Plugins</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+  <div class="container">
+    <!-- Extending Functionality -->
+
+    <!-- Alert Messages -->
+
+      <div class="alert alert-success alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        Amount has been transferred successfully.
+      </div>
+
+
+    <!-- Dropdowns -->
+
+      <ul class="nav nav-pills">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a data-toggle="dropdown" data-target="#" href="http://www.google.com">Profile <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Messages</a></li>
+      </ul>
+
+
+    <!-- Buttons -->
+
+      <button type="button" class="btn btn-lg btn-default" data-toggle="button">Toggle Me!</button>
+      <p>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-default">
+            <input type="checkbox"> Option 1
+          </label>
+          <label class="btn btn-default">
+            <input type="checkbox"> Option 2
+          </label>
+          <label class="btn btn-default">
+            <input type="checkbox"> Option 3
+          </label>
+        </div>
+      </p>
+
+      <p>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-info">
+            <input type="radio" name="options"> Option 1
+          </label>
+          <label class="btn btn-info">
+            <input type="radio" name="options"> Option 2
+          </label>
+          <label class="btn btn-info">
+            <input type="radio" name="options"> Option 3
+          </label>
+        </div>
+      </p>
+
+    <!-- Managing Content -->
+
+    <!-- Scrollspy -->
+
+    <!-- Navbar -->
+    <p>
+      <nav id="navbarExample" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbarLinks">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">My Brand</a>
+          </div>
+          <div class="collapse navbar-collapse navbarLinks">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#map">Map</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </p>
+
+    <!-- Content -->
+    <div data-spy="scroll" data-target="#navbarExample" data-offset="0" class="scrollspy-example">
+      <h4 id="home">Home</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio animi molestias non impedit nesciunt at nulla! Doloremque asperiores nobis architecto voluptate hic eaque eos aperiam veritatis, dolorum rerum adipisci voluptatibus aut ut, odio tempora nostrum a in quaerat voluptatum repellat distinctio culpa, ipsam commodi omnis harum! Nostrum porro odio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, laudantium, error non repellendus, sunt perferendis quibusdam sint, fuga rem perspiciatis beatae consequuntur accusamus deleniti atque molestias? Animi saepe sed, cum quidem magni labore, debitis molestiae earum distinctio. Dolor natus, consequatur et quo dicta asperiores, ratione earum, voluptatum unde perspiciatis aspernatur.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio animi molestias non impedit nesciunt at nulla! Doloremque asperiores nobis architecto voluptate hic eaque eos aperiam veritatis, dolorum rerum adipisci voluptatibus aut ut, odio tempora nostrum a in quaerat voluptatum repellat distinctio culpa, ipsam commodi omnis harum! Nostrum porro odio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, laudantium, error non repellendus, sunt perferendis quibusdam sint, fuga rem perspiciatis beatae consequuntur accusamus deleniti atque molestias? Animi saepe sed, cum quidem magni labore, debitis molestiae earum distinctio. Dolor natus, consequatur et quo dicta asperiores, ratione earum, voluptatum unde perspiciatis aspernatur.</p>
+
+      <h4 id="about">About</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio animi molestias non impedit nesciunt at nulla! Doloremque asperiores nobis architecto voluptate hic eaque eos aperiam veritatis, dolorum rerum adipisci voluptatibus aut ut, odio tempora nostrum a in quaerat voluptatum repellat distinctio culpa, ipsam commodi omnis harum! Nostrum porro odio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, laudantium, error non repellendus, sunt perferendis quibusdam sint, fuga rem perspiciatis beatae consequuntur accusamus deleniti atque molestias? Animi saepe sed, cum quidem magni labore, debitis molestiae earum distinctio. Dolor natus, consequatur et quo dicta asperiores, ratione earum, voluptatum unde perspiciatis aspernatur.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio animi molestias non impedit nesciunt at nulla! Doloremque asperiores nobis architecto voluptate hic eaque eos aperiam veritatis, dolorum rerum adipisci voluptatibus aut ut, odio tempora nostrum a in quaerat voluptatum repellat distinctio culpa, ipsam commodi omnis harum! Nostrum porro odio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, laudantium, error non repellendus, sunt perferendis quibusdam sint, fuga rem perspiciatis beatae consequuntur accusamus deleniti atque molestias? Animi saepe sed, cum quidem magni labore, debitis molestiae earum distinctio. Dolor natus, consequatur et quo dicta asperiores, ratione earum, voluptatum unde perspiciatis aspernatur.</p>
+
+      <h4 id="contact">Contact Us</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio animi molestias non impedit nesciunt at nulla! Doloremque asperiores nobis architecto voluptate hic eaque eos aperiam veritatis, dolorum rerum adipisci voluptatibus aut ut, odio tempora nostrum a in quaerat voluptatum repellat distinctio culpa, ipsam commodi omnis harum! Nostrum porro odio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, laudantium, error non repellendus, sunt perferendis quibusdam sint, fuga rem perspiciatis beatae consequuntur accusamus deleniti atque molestias? Animi saepe sed, cum quidem magni labore, debitis molestiae earum distinctio. Dolor natus, consequatur et quo dicta asperiores, ratione earum, voluptatum unde perspiciatis aspernatur.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio animi molestias non impedit nesciunt at nulla! Doloremque asperiores nobis architecto voluptate hic eaque eos aperiam veritatis, dolorum rerum adipisci voluptatibus aut ut, odio tempora nostrum a in quaerat voluptatum repellat distinctio culpa, ipsam commodi omnis harum! Nostrum porro odio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, laudantium, error non repellendus, sunt perferendis quibusdam sint, fuga rem perspiciatis beatae consequuntur accusamus deleniti atque molestias? Animi saepe sed, cum quidem magni labore, debitis molestiae earum distinctio. Dolor natus, consequatur et quo dicta asperiores, ratione earum, voluptatum unde perspiciatis aspernatur.</p>
+
+      <h4 id="map">Map</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio animi molestias non impedit nesciunt at nulla! Doloremque asperiores nobis architecto voluptate hic eaque eos aperiam veritatis, dolorum rerum adipisci voluptatibus aut ut, odio tempora nostrum a in quaerat voluptatum repellat distinctio culpa, ipsam commodi omnis harum! Nostrum porro odio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, laudantium, error non repellendus, sunt perferendis quibusdam sint, fuga rem perspiciatis beatae consequuntur accusamus deleniti atque molestias? Animi saepe sed, cum quidem magni labore, debitis molestiae earum distinctio. Dolor natus, consequatur et quo dicta asperiores, ratione earum, voluptatum unde perspiciatis aspernatur.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio animi molestias non impedit nesciunt at nulla! Doloremque asperiores nobis architecto voluptate hic eaque eos aperiam veritatis, dolorum rerum adipisci voluptatibus aut ut, odio tempora nostrum a in quaerat voluptatum repellat distinctio culpa, ipsam commodi omnis harum! Nostrum porro odio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, laudantium, error non repellendus, sunt perferendis quibusdam sint, fuga rem perspiciatis beatae consequuntur accusamus deleniti atque molestias? Animi saepe sed, cum quidem magni labore, debitis molestiae earum distinctio. Dolor natus, consequatur et quo dicta asperiores, ratione earum, voluptatum unde perspiciatis aspernatur.</p>
+    </div>
+
+    <!-- Tabs -->
+
+    <p></p>
+    <div class="row">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#first" data-toggle="tab">Home</a></li>
+        <li><a href="#profile" data-toggle="tab">Profile</a></li>
+        <li><a href="#messages" data-toggle="tab">Messages</a></li>
+        <li><a href="#settings" data-toggle="tab">Settings</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane fade in active" id="first">
+          <h3>The Home</h3>
+        </div>
+        <div class="tab-pane fade" id="profile">
+          <h3>The Profile</h3>
+        </div>
+        <div class="tab-pane fade" id="messages">
+          <h3>The Messages</h3>
+        </div>
+        <div class="tab-pane fade" id="settings">
+          <h3>The Settings</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Collapse -->
+
+    <p></p>
+    <div class="row">
+      <div class="panel-group" id="accordion">
+
+      <!-- Panel 1 -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                Collapsible Group Item #1
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, odio.
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 2 -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                Collapsible Group Item #2
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, odio.
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 3 -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                Collapsible Group Item #3
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, odio.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tooltip -->
+    <p></p>
+    <div class="row">
+      <button type="button" class="btn btn-default tooltipButton" data-toggle="tooltip" data-placement="bottom" title="I am a Bootstrap button">Who am I</button>
+      <!-- Popover -->
+      <button type="button" class="btn btn-danger popoverButton" data-toggle="popover" data-placement="bottom" data-content="Lorem ipsum dolor." title="This is a demo popover">Click Me!</button>
+    </div>
+
+    <!-- Getting Fancy -->
+
+    <!-- Carousel -->
+    <p></p>
+    <div class="row">
+      <div id="bestCarsCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#bestCarsCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#bestCarsCarousel" data-slide-to="1"></li>
+          <li data-target="#bestCarsCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/car1.jpg" alt="">
+            <div class="carousel-caption">
+              <h3>Car 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, quos.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/car2.jpg" alt="">
+            <div class="carousel-caption">
+              <h3>Car 2</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, quos.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/car3.jpg" alt="">
+            <div class="carousel-caption">
+              <h3>Car 3</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, quos.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a href="#bestCarsCarousel" class="left carousel-control" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+
+        <a href="#bestCarsCarousel" class="right carousel-control" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Modals -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, laboriosam.</p>
+    <div class="row">
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+             <!-- Modal header -->
+             <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Welcome Back!</h4>
+             </div>
+
+             <!-- Modal Body -->
+             <div class="modal-body">
+               <h1>Hello Readers!</h1>
+             </div>
+
+             <!-- Modal Footer -->
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-primary">Save changes</button>
+             </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Launch modal</button>
+    </div>
+
+
+  </div>
+
+  <script src="js/jquery-1.11.2.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

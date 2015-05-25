@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,OAAQ;EAPN,kBAAkB,EAAE,OAAmB;EACvC,qBAAqB,EAAE,OAAmB;EAC1C,oBAAoB,EAAE,OAAmB;EACzC,gBAAgB,EAAE,OAAmB;EACrC,aAAa,EAAE,OAAmB;EAClC,MAAM,EAAE,iBAAmB",
+"sources": ["../sass/task19.scss"],
+"names": [],
+"file": "task19.css"
+}

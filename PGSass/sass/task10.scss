@@ -1,0 +1,16 @@
+$width: 500px;
+$sidebar_percent: 0.2;
+$double_width: $width * 2;
+$half_width: $width / 2;
+$width_plus_2: $width + 2;
+$width_minus_2: $width - 2;
+
+#page {
+  width: $width;
+  #sidebar {
+    width: $width * $sidebar_percent;
+  }
+  #content {
+    width: $width * (1 - $sidebar_percent)
+  }
+}

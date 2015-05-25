@@ -1,0 +1,7 @@
+Created team "#{@team.name}"
+
+%form(action="/teams/1/enter_competition?has_questions=false" method="post")
+  %button Enter competition WITHOUT questions
+
+%form(action="/teams/1/enter_competition?has_questions=true" method="post")
+  %button Enter competition WITH questions

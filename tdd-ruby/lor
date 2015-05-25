@@ -1,0 +1,17 @@
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) Competition having no questions doesn't accept any teams
+     [31mFailure/Error: before { competition.questions = [] }[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `questions=' for #<Competition:0x00000003381640>[0m
+     [36m# ./spec/competition_spec.rb:9:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.014 seconds (files took 0.80401 seconds to load)
+[31m7 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/competition_spec.rb:11[0m [36m# Competition having no questions doesn't accept any teams[0m
+

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAS;EACP,KAAK,EAAE,KAAK;EACZ,iBAAS;IACP,MAAM,EAAE,aAAa;IACrB,wBAAO;MACL,KAAK,EAAE,GAAG;EACd,cAAM;IACJ,MAAM,EAAE,eAAe;IACvB,qBAAO;MACL,KAAK,EAAE,KAAK",
+"sources": ["../sass/task6.scss"],
+"names": [],
+"file": "task6.css"
+}

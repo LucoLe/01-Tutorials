@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAUA,QAAS;EAFL,KAAK,EAAE,GAAG;;AAId,OAAQ;EAVJ,KAAK,EAAE,IAAI",
+"sources": ["../sass/task23.scss"],
+"names": [],
+"file": "task23.css"
+}

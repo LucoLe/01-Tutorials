@@ -1,0 +1,10 @@
+.blue_button {
+  background: #336699;
+  font-weight: bold;
+  color: white;
+  padding: 5px; }
+
+  .checkout_button {
+    @extend .blue_button;
+    color: darken(#336699, 10%)
+  }

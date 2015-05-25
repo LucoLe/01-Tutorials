@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,KAAM;EACJ,KAAK,ECJM,OAAO;EDKlB,KAAK,EELM,KAAK;;AFOlB,QAAS;EACP,KAAK,EAAE,OAAwB;EAC/B,KAAK,EAAE,KAAe",
+"sources": ["../sass/task12.scss","../sass/_colors.scss","../sass/widths.scss"],
+"names": [],
+"file": "task12.css"
+}

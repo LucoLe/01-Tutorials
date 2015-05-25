@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My First Bootstrap Application</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">Primer</a>
+      </div>
+      <div class="collapse navbar-collapse" id="mynavbar-content">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Board of Members</a></li>
+              <li><a href="#">Developers Team</a></li>
+              <li><a href="#">Designing Team</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Share Holders</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Page header -->
+    <div class="page-header">
+      <h1>Chapter 3 <small>Exploring Bootstrap Components</small></h1>
+    </div>
+
+    <!-- Panel -->
+    <div class="row">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          ATTENTION
+        </div>
+        <div class="panel-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error saepe facilis soluta optio suscipit, hic, eaque eum ut ipsam quam.
+        </div>
+        <div class="panel-footer">
+          <a href="#" class="btn btn-danger btn-sm">Agree</a>
+          <a href="#" class="btn btn-default btn-sm">Decline</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Media -->
+    <div class="row">
+      <div class="media">
+        <a href="#" class="pull-left"><img src="images/1.jpg" alt="A picture" class="media-object">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">Awesome piece of work!</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, voluptates?</p>
+
+          <!-- Second Media Object -->
+          <div class="media">
+            <a href="" class="pull-left"><img src="images/1.jpg" alt="A picture" class="media-object">
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading">Second comment</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, eius.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Thumbnails -->
+    <div class="row">
+      <div class="col-xs-3">
+        <div href="#" class="thumbnail">
+          <img src="images/1.jpg" alt="">
+          <div class="caption">
+            <h3>Caption</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, culpa?</p>
+            <p><a href="#" class="btn btn-primary">Read more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3">
+        <div href="#" class="thumbnail">
+          <img src="images/2.jpg" alt="">
+          <div class="caption">
+            <h3>Caption</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, culpa?</p>
+            <p><a href="#" class="btn btn-primary">Read more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3">
+        <div href="#" class="thumbnail">
+          <img src="images/3.jpg" alt="">
+          <div class="caption">
+            <h3>Caption</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, culpa?</p>
+            <p><a href="#" class="btn btn-primary">Read more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3">
+        <div href="#" class="thumbnail">
+          <img src="images/4.jpg" alt="">
+          <div class="caption">
+            <h3>Caption</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, culpa?</p>
+            <p><a href="#" class="btn btn-primary">Read more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- List Groups -->
+    <div class="row">
+      <h2>My MailBox</h2>
+        <ul class="list-group">
+          <li class="list-group-item ">Inbox
+            <span class="badge">14</span>
+          </li>
+          <li class="list-group-item list-group-item-success">Sent
+            <span class="badge">20</span>
+          </li>
+          <li class="list-group-item list-group-item-info">Drafts
+            <span class="badge">5</span>
+          </li>
+          <li class="list-group-item list-group-item-danger">Delete
+            <span class="badge">25</span>
+          </li>
+          <li class="list-group-item list-group-item-warning">Spam
+            <span class="badge">11</span>
+          </li>
+          <li class="list-group-item">
+            <h4 class="list-group-item-heading">Item heading</h4>
+            <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, quaerat!</p>
+          </li>
+        </ul>
+    </div>
+
+
+      <!-- Navs -->
+      <div class="row">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#">About</a></li>
+          <li><a href="#">Activity</a></li>
+          <li><a href="#">Liked Pages</a></li>
+        </ul>
+      </div>
+
+      <hr>
+
+      <!-- Standing out -->
+      <div class="row">
+        <h3>Jump Start Bootstrap <span class="label label-info ">New</span></h3>
+
+        <a href="#" class="btn btn-primary">Click Here</a>
+        <a href="#" class="btn btn-success">Click Here</a>
+        <a href="#" class="btn btn-info">Click Here</a>
+        <a href="#" class="btn btn-warning">Click Here</a>
+        <a href="#" class="btn btn-danger">Click Here</a>
+
+        <p></p>
+        <p><span class="glyphicon glyphicon-heart"></span></p>
+
+        <p></p>
+        <div class="well">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias laborum aliquam rerum maxime, dolore sequi architecto, ipsa sapiente ab aut quo eius suscipit dolorem facilis officiis molestiae inventore ratione nobis dolores, error maiores quam reprehenderit, incidunt obcaecati? Cum, optio fugiat earum, ullam, voluptas impedit perspiciatis quas, animi non id molestias?
+          <p><a href="#" class="btn btn-primary btn-md">Inbox <span class="badge">23</span></a></p>
+        </div>
+      </div>
+
+      <!-- Breadcrumb -->
+      <ol class="breadcrumb">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li class="active">Author</li>
+      </ol>
+
+      <!-- Fun with Forms -->
+      <div class="row">
+        <!-- Basic Form -->
+        <form class="form">
+          <div class="form-group">
+            <label for="nameField">Name</label>
+            <input type="text" class="form-control" id="nameField" placeholder="Your Name">
+          </div>
+
+          <div class="form-group">
+            <label for="emailField">Email</label>
+            <input type="email" class="form-control" id="emailField" placeholder="Your Email">
+          </div>
+
+          <div class="form-group">
+            <label for="phoneField">Phone</label>
+            <input type="text" class="form-control" id="phoneField" placeholder="Your Phone Number">
+          </div>
+
+          <div class="form-group">
+            <label for="descField">Description</label>
+            <textarea class="form-control" id="descField" placeholder="Your Comments"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="reset" class="btn btn-default">Reset</button>
+        </form>
+
+        <!-- Horizontal Forms -->
+        <p></p>
+        <div class="row">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="nameField" class="col-xs-2">Name</label>
+              <div class="col-xs-10">
+                <input type="text" class="form-control" id="nameField" placeholder="Your Name">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="emailField" class="col-xs-2">Email</label>
+              <div class="col-xs-10">
+                <input type="email" class="form-control" id="emailField" placeholder="Your Email">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="phoneField" class="col-xs-2">Phone</label>
+              <div class="col-xs-10">
+                <input type="text" class="form-control" id="phoneField" placeholder="Your Phone Number">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="descField" class="col-xs-2">Description</label>
+              <div class="col-xs-10">
+                <textarea class="form-control" id="descField" placeholder="Your Comments"></textarea>
+              </div>
+            </div>
+            <div class="col-xs-10 col-xs-offset-2">
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="reset" class="btn btn-default">Reset</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Inline Forms -->
+        <p></p>
+        <div class="row">
+          <div class="well well-sm">
+            <form class="form-inline">
+              <div class="form-group">
+                <input type="email" class="form-control" id="emailField" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="passwordField" placeholder="Password">
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Remember me
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+
+  <script src="js/jquery-1.11.2.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>

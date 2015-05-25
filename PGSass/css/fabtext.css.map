@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAU;EACR,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,GAAG",
+"sources": ["../sass/fabtext.scss"],
+"names": [],
+"file": "fabtext.css"
+}

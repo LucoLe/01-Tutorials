@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACJ,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,IAAI;EACf,2DAA4D;IAH9D,KAAM;MAIJ,SAAS,EAAE,IAAI",
+"sources": ["../sass/task24.scss"],
+"names": [],
+"file": "task24.css"
+}

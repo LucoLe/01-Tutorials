@@ -1,0 +1,10 @@
+/* line 3, ../sass/task27.scss */
+.flowerbullet {
+  margin-left: 0;
+}
+/* line 29, C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_bullets.scss */
+.flowerbullet li {
+  padding-left: 14px;
+  background: url('/images/star.png?1426080176') no-repeat -1071px -1016.5px;
+  list-style-type: none;
+}

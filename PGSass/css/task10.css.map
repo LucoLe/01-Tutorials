@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAOA,KAAM;EACJ,KAAK,EARC,KAAK;EASX,cAAS;IACP,KAAK,EAAE,KAAyB;EAElC,cAAS;IACP,KAAK,EAAE,KACT",
+"sources": ["../sass/task10.scss"],
+"names": [],
+"file": "task10.css"
+}

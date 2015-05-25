@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAK;EACH,WAAW,ECHD,4FAAgB",
+"sources": ["../sass/task13.scss","../sass/_font_family.scss"],
+"names": [],
+"file": "task13.css"
+}

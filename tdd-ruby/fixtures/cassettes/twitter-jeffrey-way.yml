@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.twitter.com/1.1/users/show.json?screen_name=jeffrey_way
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.twitter.com
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Content-Length:
+      - '77'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 06 Apr 2015 13:44:13 GMT
+      Server:
+      - tsa_f
+      Set-Cookie:
+      - guest_id=v1%3A142832785326887386; Domain=.twitter.com; Path=/; Expires=Wed,
+        05-Apr-2017 13:44:13 UTC
+      X-Connection-Hash:
+      - 5d814bd103e569d3e8a04621029f5e58
+      X-Response-Time:
+      - '96'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"errors":[{"message":"SSL is required","code":92}]}'
+    http_version: 
+  recorded_at: Mon, 06 Apr 2015 13:44:14 GMT
+recorded_with: VCR 2.9.3

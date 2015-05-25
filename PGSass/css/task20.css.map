@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,GAAI;EAHF,MAAM,EAAE,iBAA0B;EAClC,OAAO,EAAE,GAAe",
+"sources": ["../sass/task20.scss"],
+"names": [],
+"file": "task20.css"
+}

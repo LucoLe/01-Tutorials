@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMA,cAAe;EALb,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,4BAA4B;EACzC,SAAS,EAIU,IAAI;EAHvB,YAAY,EAAE,UAAU",
+"sources": ["../sass/task17.scss"],
+"names": [],
+"file": "task17.css"
+}

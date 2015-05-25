@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACJ,KAAK,EAAE,OAAqB;;AAK9B,KAAM;EACJ,KAAK,EAAE,OAA0B;EACjC,KAAK,EAAE,OAA4B;EACnC,KAAK,EAAE,OAA4C;EACnD,KAAK,EAAE,OAAyB",
+"sources": ["../sass/task11.scss"],
+"names": [],
+"file": "task11.css"
+}

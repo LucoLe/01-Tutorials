@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,IAAK;EAEH,UAAU,EANI,IAAI;EAOlB,aAAS;IACP,KAAK,EANI,KAAK;IAOd,UAAU,EAAE,KAAK;IACjB,MAAM,EATQ,IAAI;IAUlB,gBAAG;MACD,KAAK,EAZK,IAAI",
+"sources": ["../sass/task9.scss"],
+"names": [],
+"file": "task9.css"
+}
